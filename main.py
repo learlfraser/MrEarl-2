@@ -11,3 +11,4 @@ print("Mr Earl is a " + fruit)
 name = name.upper()
 print(name)
 
+print("This is new")
