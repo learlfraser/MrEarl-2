@@ -1,9 +1,9 @@
-def question1():
-  print("This is question one")
-  question2()
-  
-def question2 ():
-  print("This is question two")
+def greet(name):
+    print ('Hello', name)
 
-question1()
-  
+def question1():
+  print("Hello")
+
+greet('Jack')
+greet('Jill')
+greet('Bob')

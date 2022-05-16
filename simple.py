@@ -1,4 +1,4 @@
-#Prints the text
+print("Simple")
 print("Hello World")
 print("Mr Earl")
 name = "Mr Earl"

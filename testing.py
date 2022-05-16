@@ -1,27 +1,44 @@
-#Title of program
-print("What day is it program")
-#accept an input and store it as a variable
-day = input("What day is it? ")
-#Change input to lower case
-
-day = day.lower()
-
-#compare day to text
-if day == "monday":
-  print("Today is 1")
-  choice = input("Are you sure?")
-
-  if choice == "Yes":
-    print("Yeet")
-  else:
-    print("No Yeet")
-  
+def question1():
+  print("This is Question One")
+  day = input("Kia Ora means Hello in Te Reo / True or False?")
+      
+  if day == "true":
+    print("Correct")
+    question2()
 #compare day to text 
-elif day == "tuesday":
-  print("Today is 2")
+  elif day == "false":
+    print("Incorrect")
+    question2()
 
-#if unable to compare to anything print the following
-else:
-  print("Im not sure try again")
+
+def question2():
+  print("This is Question Two")
+
+def question3():
+  print("This is Question Three")
+
+def question4():
+  print("This is Question Four")
+
+def question5():
+  print("This is Question Five")
+
+def fail():
+  print("You have failed")
+
+def correct():
+  print("Correct")
+
+print("Kia Ora This is a quiz")
+
+name = input("What is you name? ")
+
+print("Welcome " + name)
+
+question1()
+
+
+print("Brooke")
+#l;sdjlkjsdf
 
 
